@@ -582,6 +582,14 @@
       filter: saturate(.82) contrast(.96);
     }
 
+    .map-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      filter: saturate(.82) contrast(.96);
+    }
+
     .contact-highlight {
       border: 1px solid rgba(224, 192, 119, .4);
       background:
@@ -1249,14 +1257,11 @@
           <div class="contact-card contact-highlight">
             <h3>Прямые контакты</h3>
             <div class="contact-list">
-              <div class="contact-row"><span>Телефон</span><strong><a href="tel:+79991234567">+7 (999) 123-45-67</a></strong></div>
-              <div class="contact-row"><span>ВКонтакте</span><strong><a href="https://vk.com/" target="_blank" rel="noopener">vk.com/</a></strong></div>
-              <div class="contact-row"><span>MAX</span><strong><a href="https://max.ru/" target="_blank" rel="noopener">max.ru/</a></strong></div>
               <div class="contact-row"><span>Адрес</span><strong>Москва, Басманный переулок, 1</strong></div>
               <div class="contact-row"><span>График</span><strong>Ежедневно, 10:00-21:00</strong></div>
             </div>
             <div class="map-frame" aria-label="Карта: Москва, Басманный переулок, 1">
-              <iframe src="https://yandex.ru/map-widget/v1/?text=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D0%91%D0%B0%D1%81%D0%BC%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%B5%D1%80%D0%B5%D1%83%D0%BB%D0%BE%D0%BA%2C%201&z=16" title="Яндекс Карта: Москва, Басманный переулок, 1" loading="lazy"></iframe>
+              <img src="https://static-maps.yandex.ru/1.x/?ll=37.657305,55.770260&amp;z=16&amp;size=650,300&amp;l=map&amp;pt=37.657305,55.770260,pm2rdm" alt="Яндекс Карта: Москва, Басманный переулок, 1" loading="lazy">
             </div>
             <div class="note">Первая переписка помогает понять срочность и выбрать удобный формат консультации. Поля ввода на сайте не используются.</div>
           </div>
